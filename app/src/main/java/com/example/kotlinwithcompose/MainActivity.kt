@@ -17,7 +17,7 @@ import com.example.kotlinwithcompose.ui.MyScreen
 import com.example.kotlinwithcompose.ui.theme.KotlinWithComposeTheme
 
 class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override funs onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()  // Now recommended by Google
         setContent {
